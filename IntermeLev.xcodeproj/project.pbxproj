@@ -11,6 +11,7 @@
 		FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA8A28747E64006ECB30 /* ContentView.swift */; };
 		FADBEA8D28747E66006ECB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADBEA8C28747E66006ECB30 /* Assets.xcassets */; };
 		FADBEA9028747E66006ECB30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADBEA8F28747E66006ECB30 /* Preview Assets.xcassets */; };
+		FADBEA9728748049006ECB30 /* LongPressGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FADBEA8A28747E64006ECB30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FADBEA8C28747E66006ECB30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADBEA8F28747E66006ECB30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBoot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				FADBEA8A28747E64006ECB30 /* ContentView.swift */,
 				FADBEA8C28747E66006ECB30 /* Assets.xcassets */,
 				FADBEA8E28747E66006ECB30 /* Preview Content */,
+				FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */,
 			);
 			path = IntermeLev;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */,
 				FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */,
+				FADBEA9728748049006ECB30 /* LongPressGestureBoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
