@@ -3,6 +3,7 @@ import SwiftUI
 struct MagnificationGestBoot: View {
     @State var currentAmount: CGFloat = 0
     @State var lastAmount: CGFloat = 0
+    @State var angle: Angle = Angle(degrees: 0)
     
     
     var body: some View {
@@ -21,16 +22,25 @@ struct MagnificationGestBoot: View {
             //                .frame(height: 300)
             AsyncImage(url: URL(string:"https://picsum.photos/200/300"))
                 .scaleEffect(1 + currentAmount)
+                .rotationEffect(angle)
                 .gesture(
-                    MagnificationGesture()
+//                    MagnificationGesture()
+//                        .onChanged { value in
+//                            currentAmount = value - 1
+//                        }
+//                        .onEnded { value in
+//                            withAnimation(.spring()){
+//                                currentAmount = 0
+//                            }
+//                        }
+                    RotationGesture()
                         .onChanged { value in
-                            currentAmount = value - 1
+                            angle = value
                         }
                         .onEnded { value in
                             withAnimation(.spring()){
-                                currentAmount = 0
+                                angle = Angle(degrees: 0)
                             }
-                            
                         }
                 )
             HStack {
