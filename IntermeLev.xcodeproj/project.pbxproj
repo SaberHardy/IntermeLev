@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */; };
 		FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */; };
+		FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */; };
 		FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */; };
 		FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA8A28747E64006ECB30 /* ContentView.swift */; };
 		FADBEA8D28747E66006ECB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADBEA8C28747E66006ECB30 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot2.swift; sourceTree = "<group>"; };
+		FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBoot.swift; sourceTree = "<group>"; };
 		FADBEA8528747E64006ECB30 /* IntermeLev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermeLev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermeLevApp.swift; sourceTree = "<group>"; };
 		FADBEA8A28747E64006ECB30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				FADBEA9828749647006ECB30 /* MagnificationGestBoot.swift */,
 				FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */,
 				FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */,
+				FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */,
 			);
 			path = IntermeLev;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */,
 				FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */,
 				FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */,
 				FADBEA9928749647006ECB30 /* MagnificationGestBoot.swift in Sources */,
