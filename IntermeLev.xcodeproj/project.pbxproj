@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */; };
 		FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */; };
 		FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADBEA8A28747E64006ECB30 /* ContentView.swift */; };
 		FADBEA8D28747E66006ECB30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADBEA8C28747E66006ECB30 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot.swift; sourceTree = "<group>"; };
 		FADBEA8528747E64006ECB30 /* IntermeLev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntermeLev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermeLevApp.swift; sourceTree = "<group>"; };
 		FADBEA8A28747E64006ECB30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				FADBEA8E28747E66006ECB30 /* Preview Content */,
 				FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */,
 				FADBEA9828749647006ECB30 /* MagnificationGestBoot.swift */,
+				FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */,
 			);
 			path = IntermeLev;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */,
 				FADBEA9928749647006ECB30 /* MagnificationGestBoot.swift in Sources */,
 				FADBEA9728748049006ECB30 /* LongPressGestureBoot.swift in Sources */,
+				FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
