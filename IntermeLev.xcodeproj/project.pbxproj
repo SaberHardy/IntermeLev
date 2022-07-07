@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA5F83602876D26E00D14EE1 /* MultipleSheetsBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */; };
+		FA5F83622876FA0200D14EE1 /* MasksBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F83612876FA0200D14EE1 /* MasksBootCamp.swift */; };
 		FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */; };
 		FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */; };
 		FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBoot.swift; sourceTree = "<group>"; };
+		FA5F83612876FA0200D14EE1 /* MasksBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasksBootCamp.swift; sourceTree = "<group>"; };
 		FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot2.swift; sourceTree = "<group>"; };
 		FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBoot.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */,
 				FADBEA8A28747E64006ECB30 /* ContentView.swift */,
+				FA5F83612876FA0200D14EE1 /* MasksBootCamp.swift */,
 				FADBEA8C28747E66006ECB30 /* Assets.xcassets */,
 				FADBEA8E28747E66006ECB30 /* Preview Content */,
 				FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */,
+				FA5F83622876FA0200D14EE1 /* MasksBootCamp.swift in Sources */,
 				FADBEA8B28747E64006ECB30 /* ContentView.swift in Sources */,
 				FADBEA8928747E64006ECB30 /* IntermeLevApp.swift in Sources */,
 				FADBEA9928749647006ECB30 /* MagnificationGestBoot.swift in Sources */,
