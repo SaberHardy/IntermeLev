@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5F83602876D26E00D14EE1 /* MultipleSheetsBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */; };
 		FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */; };
 		FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */; };
 		FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSheetsBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot2.swift; sourceTree = "<group>"; };
 		FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBoot.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */,
 				FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */,
 				FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */,
+				FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */,
 			);
 			path = IntermeLev;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				FADBEA9728748049006ECB30 /* LongPressGestureBoot.swift in Sources */,
 				FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */,
 				FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */,
+				FA5F83602876D26E00D14EE1 /* MultipleSheetsBoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
