@@ -12,6 +12,7 @@
 		FA5F83642877080C00D14EE1 /* SoundeffectsBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F83632877080C00D14EE1 /* SoundeffectsBoot.swift */; };
 		FA5F836828770BBF00D14EE1 /* am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA5F836628770BBF00D14EE1 /* am.mp3 */; };
 		FA5F836928770BBF00D14EE1 /* water.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA5F836728770BBF00D14EE1 /* water.mp3 */; };
+		FA5F836B28773E7D00D14EE1 /* NotificationBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5F836A28773E7D00D14EE1 /* NotificationBoot.swift */; };
 		FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */; };
 		FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */; };
 		FA7C0E212876103C0098BB12 /* GeometryReaderBoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */; };
@@ -29,6 +30,7 @@
 		FA5F83632877080C00D14EE1 /* SoundeffectsBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundeffectsBoot.swift; sourceTree = "<group>"; };
 		FA5F836628770BBF00D14EE1 /* am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = am.mp3; sourceTree = "<group>"; };
 		FA5F836728770BBF00D14EE1 /* water.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = water.mp3; sourceTree = "<group>"; };
+		FA5F836A28773E7D00D14EE1 /* NotificationBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot.swift; sourceTree = "<group>"; };
 		FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBoot2.swift; sourceTree = "<group>"; };
 		FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBoot.swift; sourceTree = "<group>"; };
@@ -84,15 +86,16 @@
 				FADBEA8828747E64006ECB30 /* IntermeLevApp.swift */,
 				FADBEA8A28747E64006ECB30 /* ContentView.swift */,
 				FA5F83612876FA0200D14EE1 /* MasksBootCamp.swift */,
-				FADBEA8C28747E66006ECB30 /* Assets.xcassets */,
-				FADBEA8E28747E66006ECB30 /* Preview Content */,
 				FADBEA9628748049006ECB30 /* LongPressGestureBoot.swift */,
 				FADBEA9828749647006ECB30 /* MagnificationGestBoot.swift */,
 				FA7C0E1C2875C54B0098BB12 /* DragGestureBoot.swift */,
 				FA7C0E1E2875D0480098BB12 /* DragGestureBoot2.swift */,
 				FA7C0E202876103C0098BB12 /* GeometryReaderBoot.swift */,
 				FA5F835F2876D26E00D14EE1 /* MultipleSheetsBoot.swift */,
+				FADBEA8C28747E66006ECB30 /* Assets.xcassets */,
+				FADBEA8E28747E66006ECB30 /* Preview Content */,
 				FA5F836528770BA100D14EE1 /* sounds */,
+				FA5F836A28773E7D00D14EE1 /* NotificationBoot.swift */,
 			);
 			path = IntermeLev;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 				FA7C0E1F2875D0480098BB12 /* DragGestureBoot2.swift in Sources */,
 				FA7C0E1D2875C54B0098BB12 /* DragGestureBoot.swift in Sources */,
 				FA5F83602876D26E00D14EE1 /* MultipleSheetsBoot.swift in Sources */,
+				FA5F836B28773E7D00D14EE1 /* NotificationBoot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
