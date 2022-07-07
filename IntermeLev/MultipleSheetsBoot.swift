@@ -21,12 +21,17 @@ struct NewModel: Identifiable {
 struct MultipleSheetsBoot: View {
     @State var selectedModel: NewModel = NewModel(title: "First Title")
     @State var showSheet: Bool = false
+    @State var showSheet2: Bool = false
     var body: some View {
         VStack(spacing: 20) {
             Button("Button 1") {
-                selectedModel = NewModel(title: "One")
+//                selectedModel = NewModel(title: "One")
                 showSheet.toggle()
             }
+            .sheet(isPresented: $showSheet, content: {
+                nextScreen(
+                    selectedModel: NewModel(title: "One sheet"))
+            })
             .frame(width: 150, height: 60)
             .font(.largeTitle)
             .background(.green)
@@ -34,23 +39,29 @@ struct MultipleSheetsBoot: View {
             .cornerRadius(30)
             
             Button("Button 2") {
-                selectedModel = NewModel(title: "Two")
-                showSheet.toggle()
+//                selectedModel = NewModel(title: "Two")
+                
+                showSheet2.toggle()
             }
+            .sheet(isPresented: $showSheet2, content: {
+                nextScreen(
+                    selectedModel: NewModel(title: "Two sheet"))
+            })
             .frame(width: 150, height: 60)
             .font(.largeTitle)
             .background(.green)
             .foregroundColor(.blue)
             .cornerRadius(30)
         }
-        .sheet(isPresented: $showSheet, content: {
-            nextScreen(selectedModel: $selectedModel)
-        })
+//        .sheet(isPresented: $showSheet, content: {
+//            nextScreen(selectedModel: $selectedModel)
+//        })
     }
 }
 
 struct nextScreen: View {
-    @Binding var selectedModel: NewModel
+//    @Binding var selectedModel: NewModel
+    let selectedModel: NewModel
     
     var body: some View {
         Text(selectedModel.title)
