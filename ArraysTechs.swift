@@ -1,5 +1,4 @@
 import SwiftUI
-import simd
 
 /*.We will implement the MVVM and also
  (Sort, Filter, and Map data arrays)
@@ -26,7 +25,15 @@ class ArrayModelView: ObservableObject {
 //            return user1.points > user2.points
 //        }
         // The function above is exactly the same as this line
-        filteredArray = dataArray.sorted(by: { $0.points > $1.points })
+//        filteredArray = dataArray.sorted(by: { $0.points > $1.points })
+//
+        /** Filter data **/
+        
+//        filteredArray = dataArray.filter({ (user) -> Bool in
+//            return user.isVerified
+//        })
+        filteredArray = dataArray.filter({ $0.isVerified })
+        
     }
     
     func getUserModel() {
