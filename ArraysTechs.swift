@@ -1,4 +1,5 @@
 import SwiftUI
+import simd
 
 /*.We will implement the MVVM and also
  (Sort, Filter, and Map data arrays)
@@ -13,9 +14,19 @@ struct UserModel: Identifiable {
 class ArrayModelView: ObservableObject {
     
     @Published var dataArray: [UserModel] = []
+    @Published var filteredArray: [UserModel] = []
     
     init() {
         getUserModel()
+        updateFilterArray()
+    }
+    
+    func updateFilterArray() {
+//        filteredArray = dataArray.sorted { (user1, user2) -> Bool in
+//            return user1.points > user2.points
+//        }
+        // The function above is exactly the same as this line
+        filteredArray = dataArray.sorted(by: { $0.points > $1.points })
     }
     
     func getUserModel() {
@@ -35,7 +46,7 @@ struct ArraysTechs: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading ,spacing:20) {
-                ForEach(vm.dataArray) { item in
+                ForEach(vm.filteredArray) { item in
                     HStack {
                         Text(item.name)
                             .foregroundColor(.white)
